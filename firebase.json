@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "rhymed",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
