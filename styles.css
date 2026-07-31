@@ -21,10 +21,6 @@ body {
     right: 30px;
 }
 
-.btn-theme:hover {
-    background-color: #000000;
-}
-
 #logo:hover {
     cursor: pointer;
 }
@@ -53,7 +49,16 @@ body {
     transition: 300ms;
 }
 
+@media (hover: hover) {
 .dropdown-btn:hover, .poem-link:hover {
+    background-color: #c0c0c0 ;
+}
+.btn-theme:hover {
+    background-color: #000000;
+}
+}
+
+.dropdown-btn:active, .poem-link:active {
     background-color: #c0c0c0 ;
 }
 

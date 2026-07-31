@@ -21,10 +21,6 @@ body {
     right: 30px;
 }
 
-.btn-theme:hover {
-    background-color: #ffffff;
-}
-
 #logo {
     opacity: 33%;
 }
@@ -56,7 +52,16 @@ body {
     transition: 300ms;
 }
 
-.dropdown-btn:hover, .poem-link:hover {
+@media (hover: hover) {
+    .dropdown-btn:hover, .poem-link:hover {
+        background-color: #333333 ;
+    }
+    .btn-theme:hover {
+    background-color: #ffffff;
+    }
+}
+
+.dropdown-btn:active, .poem-link:active {
     background-color: #333333 ;
 }
 
