@@ -68,6 +68,7 @@ body {
 
 .arrow {
     color:#333333;
+    font-size: small;
     transition: 300ms;
 }
 
