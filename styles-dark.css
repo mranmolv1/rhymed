@@ -158,4 +158,8 @@ body {
     max-width: 270px;
 }
 
+#poem-display {
+    padding-bottom: 50px;
+}
+
 }
