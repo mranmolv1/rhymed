@@ -8,6 +8,7 @@ body {
     font-size: 1.1rem;
     user-select: none;
     background-color: #0f0f0f;
+    background-image: url('./background.png');
 }
 
 .btn-theme {
@@ -23,6 +24,7 @@ body {
 
 #logo {
     opacity: 33%;
+    filter: drop-shadow(0 0 3px #000000);
 }
 
 #logo:hover {
@@ -38,7 +40,6 @@ body {
     height: auto;
     min-height: 90vh;
     background-image: url('./background.png');
-    background-blend-mode:screen;
 }
 
 .dropdown-btn, .poem-link {
@@ -52,6 +53,7 @@ body {
     font-size: inherit;
     border-radius: 20px;
     transition: 300ms;
+    border: 1px solid black;
 }
 
 @media (hover: hover) {
@@ -69,7 +71,7 @@ body {
 
 .dropdown-btn {
     color: #c0c0c0;
-    background-color: #212121;
+    background-color: #181818;
 }
 
 .arrow {
@@ -78,8 +80,8 @@ body {
 }
 
 .poem-link {
-    color: #c0c0c0;
-    background-color: #151515;
+    color: #aaaaaa;
+    background-color: #000000;
 }
 
 .dropdown-container {
@@ -91,9 +93,10 @@ body {
 
 /* The Active State when reading a poem */
 .sidebar a.active {
-    background-color: #c0c0c0;
+    border: 1px solid #cccccc;
+    background-color: #aaaaaa;
     color: rgb(0, 0, 0);
-    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
 
 #logo {
@@ -124,6 +127,7 @@ body {
     white-space: pre-wrap; 
     line-height: 1.6;
     color: #f0f0f0;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 /* PHONE SCREEN RULES */

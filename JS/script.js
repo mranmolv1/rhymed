@@ -9,6 +9,7 @@ logo.addEventListener('click', () => {
 // --- DROPDOWN LOGIC ---
 const dropdowns = document.querySelectorAll('.dropdown-btn');
 
+
 dropdowns.forEach(btn => {
     btn.addEventListener('click', function () {
         this.classList.toggle('active-dropdown');
@@ -18,12 +19,15 @@ dropdowns.forEach(btn => {
         if (dropdownContent.style.display === "flex") {
             dropdownContent.style.display = "none";
             arrow.style.rotate = "0deg";
+            
         } else {
             dropdownContent.style.display = "flex";
             arrow.style.rotate = "180deg";
         }
     });
 });
+
+
 
 // --- POEM & IMAGE LOADING LOGIC ---
 const poemDisplay = document.getElementById('poem-display');
