@@ -1,3 +1,7 @@
+*:hover {
+        cursor: url("./cursor.cur"), default;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -28,7 +32,7 @@ body {
 }
 
 #logo:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* SIDEBAR AND ELEMENTS UNDER */
@@ -44,7 +48,7 @@ body {
 
 .dropdown-btn, .poem-link {
     max-width: 260px;
-    cursor: pointer;
+    /* cursor: pointer; */
     text-decoration: none;
     margin-bottom: 12px;
     display: flex;
@@ -93,8 +97,8 @@ body {
 
 /* The Active State when reading a poem */
 .sidebar a.active {
-    border: 1px solid #cccccc;
-    background-color: #aaaaaa;
+    border: 1px solid #dddddd;
+    background-color: #bbbbbb;
     color: rgb(0, 0, 0);
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }

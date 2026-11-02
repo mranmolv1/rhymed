@@ -1,3 +1,7 @@
+*:hover {
+        cursor: url("./cursor_black.cur"), default;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -27,7 +31,7 @@ body {
 }
 
 #logo:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 /* SIDEBAR AND ELEMENTS UNDER */
@@ -43,7 +47,7 @@ body {
 
 .dropdown-btn, .poem-link {
     max-width: 260px;
-    cursor: pointer;
+    /* cursor: pointer; */
     text-decoration: none;
     color: inherit;
     margin-bottom: 12px;
