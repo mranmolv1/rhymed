@@ -7,7 +7,7 @@ body {
     font-family: 'Mukta', Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     user-select: none;
-    background-color: #0f0f0f;
+    background-color: #111111;
     background-image: url('./background.png');
 }
 
@@ -36,10 +36,10 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: #000000;
+    background-color: #0a0a0a;
     height: auto;
     min-height: 90vh;
-    background-image: url('./background.png');
+    background-image: none;
 }
 
 .dropdown-btn, .poem-link {

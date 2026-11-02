@@ -8,7 +8,6 @@ body {
     font-size: 1.1rem;
     user-select: none;
     background-color: white;
-    background-image: url('./background.png');
 }
 
 .btn-theme {
@@ -39,6 +38,7 @@ body {
     background-color: #cccccc;
     height: auto;
     min-height: 90vh;
+    background-image: url("./background.png");
 }
 
 .dropdown-btn, .poem-link {
